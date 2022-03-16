@@ -1,0 +1,213 @@
+titulo: "SQL e modelagem com banco de dados"
+descricao: "Mostra o que é um banco de dados relacional e como pensar a modelagem de uma base de dados."
+capitulos: 
+  -
+    titulo: "Objetivos do curso"
+    arquivo: 00-introducao.md
+    codigo: introducao
+    secoes:
+      -
+        titulo: "O que é realmente importante?"
+        codigo: "o-que-e-realmente-importante"
+      -
+        titulo: "Sobre os exercícios"
+        codigo: "sobre-os-exercicios"
+      -
+        titulo: "Tirando dúvidas e indo além"
+        codigo: "tirando-duvidas-e-indo-alem"
+  -
+    titulo: "Meu problema"
+    arquivo: 01-Consultando-os-dados.md
+    codigo: Consultando-os-dados
+    secoes:
+      -
+        titulo: "Criando o nosso banco de dados"
+        codigo: "criando-o-nosso-banco-de-dados"
+      -
+        titulo: "Começando um caderno novo: criando o banco"
+        codigo: "comecando-um-caderno-novo-criando-o-banco"
+      -
+        titulo: "O padrão utilizado neste curso"
+        codigo: "o-padrao-utilizado-neste-curso"
+      -
+        titulo: "A tabela de compras"
+        codigo: "a-tabela-de-compras"
+      -
+        titulo: "Conferindo a existência de uma tabela"
+        codigo: "conferindo-a-existencia-de-uma-tabela"
+      -
+        titulo: "Inserindo registros no banco de dados"
+        codigo: "inserindo-registros-no-banco-de-dados"
+      -
+        titulo: "Selecão simples"
+        codigo: "selecao-simples"
+      -
+        titulo: "A formatação de números decimais"
+        codigo: "a-formatacao-de-numeros-decimais"
+      -
+        titulo: "A chave primária"
+        codigo: "a-chave-primaria"
+      -
+        titulo: "Recriando a tabela do zero"
+        codigo: "recriando-a-tabela-do-zero"
+      -
+        titulo: "Consultas com filtros"
+        codigo: "consultas-com-filtros"
+      -
+        titulo: "Modelando tabelas"
+        codigo: "modelando-tabelas"
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+      -
+        titulo: "Exercícios"
+        codigo: "exercicios"
+  -
+    titulo: "Atualizando e excluindo dados"
+    arquivo: 02-Atualizando-e-excluindo-dados.md
+    codigo: Atualizando-e-excluindo-dados
+    secoes:
+      -
+        titulo: "Utilizando o UPDATE"
+        codigo: "utilizando-o-update"
+      -
+        titulo: "Atualizando várias colunas ao mesmo tempo"
+        codigo: "atualizando-varias-colunas-ao-mesmo-tempo"
+      -
+        titulo: "Utilizando uma coluna como referência para outra coluna"
+        codigo: "utilizando-uma-coluna-como-referencia-para-outra-coluna"
+      -
+        titulo: "Utilizando o DELETE"
+        codigo: "utilizando-o-delete"
+      -
+        titulo: "Cuidados com o DELETE e UPDATE"
+        codigo: "cuidados-com-o-delete-e-update"
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+  -
+    titulo: "Alterando e restringindo o formato de nossas tabelas"
+    arquivo: 03-Alterando-e-restringindo-o-formato-de-nossas-tabelas.md
+    codigo: Alterando-e-restringindo-o-formato-de-nossas-tabelas
+    secoes:
+      -
+        titulo: "Restringindo os nulos"
+        codigo: "restringindo-os-nulos"
+      -
+        titulo: "Adicionando Constraints"
+        codigo: "adicionando-constraints"
+      -
+        titulo: "Valores Default"
+        codigo: "valores-default"
+      -
+        titulo: "Evolução do banco"
+        codigo: "evolucao-do-banco"
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+  -
+    titulo: "Agrupando dados e fazendo consultas mais inteligentes"
+    arquivo: 04-Agrupando-dados-e-fazendo-consultas-mais-inteligentes.md
+    codigo: Agrupando-dados-e-fazendo-consultas-mais-inteligentes
+    secoes:
+      -
+        titulo: "Ordenando os resultados"
+        codigo: "ordenando-os-resultados"
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+  -
+    titulo: "Juntando dados de várias tabelas"
+    arquivo: 05-Juntando-dados-de-varias-tabelas.md
+    codigo: Juntando-dados-de-varias-tabelas
+    secoes:
+      -
+        titulo: "Normalizando nosso modelo"
+        codigo: "normalizando-nosso-modelo"
+      -
+        titulo: "One to Many/Many to One"
+        codigo: "one-to-manymany-to-one"
+      -
+        titulo: "FOREIGN KEY"
+        codigo: "foreign-key"
+      -
+        titulo: "Determinando valores fixos na tabela"
+        codigo: "determinando-valores-fixos-na-tabela"
+      -
+        titulo: "Server SQL Modes"
+        codigo: "server-sql-modes"
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+  -
+    titulo: "Alunos sem matrícula e o Exists "
+    arquivo: 06-Alunos-sem-matricula-e-o-Exists.md
+    codigo: Alunos-sem-matricula-e-o-Exists
+    secoes:
+      -
+        titulo: "Subqueries"
+        codigo: "subqueries"
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+  -
+    titulo: "Agrupando dados com GROUP BY"
+    arquivo: 07-Agrupando-dados-com-GROUP-BY.md
+    codigo: Agrupando-dados-com-GROUP-BY
+    secoes:
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+  -
+    titulo: "Filtrando agregações e o HAVING"
+    arquivo: 08-Filtrando-agregacoes-e-o-HAVING.md
+    codigo: Filtrando-agregacoes-e-o-HAVING
+    secoes:
+      -
+        titulo: "Condições com HAVING"
+        codigo: "condicoes-com-having"
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+  -
+    titulo: "Múltiplos valores na condição e o IN"
+    arquivo: 09-Multiplos-valores-na-condicao-e-o-IN.md
+    codigo: Multiplos-valores-na-condicao-e-o-IN
+    secoes:
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+  -
+    titulo: "Sub-queries"
+    arquivo: 10-Sub-queries.md
+    codigo: Sub-queries
+    secoes:
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+  -
+    titulo: "Entendendo o LEFT JOIN"
+    arquivo: 11-Entendendo-o-LEFT-JOIN.md
+    codigo: Entendendo-o-LEFT-JOIN
+    secoes:
+      -
+        titulo: "RIGHT JOIN"
+        codigo: "right-join"
+      -
+        titulo: "JOIN ou SUBQUERY?"
+        codigo: "join-ou-subquery"
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+  -
+    titulo: "Muitos alunos e o LIMIT"
+    arquivo: 12-Muitos-alunos-e-o-LIMIT.md
+    codigo: Muitos-alunos-e-o-LIMIT
+    secoes:
+      -
+        titulo: "Limitando e buscando a partir de uma quantidade específica"
+        codigo: "limitando-e-buscando-a-partir-de-uma-quantidade-especifica"
+      -
+        titulo: "Resumindo"
+        codigo: "resumindo"
+
